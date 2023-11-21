@@ -17,8 +17,9 @@ a {
 
 header {
   height: 800px;
-  flex-shrink: 0;
-  background: url("../img/hero\ image.png"), lightgray 50% / cover no-repeat;
+  background-image: url("../img/hero\ image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header a {
@@ -38,7 +39,6 @@ header a {
 .header-right-manu img {
   width: 19.979px;
   height: 17.105px;
-  flex-shrink: 0;
 }
 
 nav {
@@ -201,7 +201,6 @@ nav a {
 .buy {
   width: 157px;
   height: 47px;
-  flex-shrink: 0;
   background-color: #ff7400;
   display: flex;
   justify-content: center;
@@ -222,7 +221,6 @@ nav a {
 .welcome a {
   width: 137px;
   height: 47px;
-  flex-shrink: 0;
   background-color: #ff7400;
   text-decoration: none;
   display: flex;
@@ -246,7 +244,6 @@ nav a {
   width: 300px;
   height: 280px;
   padding: 50px 20px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -269,45 +266,57 @@ nav a {
 .group{
     display: none;
 }
-@media only screen and (max-width: 1440px) {
-    nav{
-        padding: 50px 200px;
-    }
-    .foods{
-        padding-right: 150px;
-    }
-}
-@media only screen and (max-width: 360px) {
-    .container{
-        width: 360px;
-    }
-    .header-right-buy{
-        display: none;  
-    }
-    .header-right-manu{
-        display: none;  
-    }
-    .group{
-        display: inline-block;
-        padding-left: 380px;
-    }
-    nav{
-        padding: 5px 0;
 
-    }
-    .header-left{
-        padding-left: 20px;
-    }
-    .header-left img{
-        width: 40px;
-    }
-    .foods{
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    header{
-        background: url('../img/hero\ image2.png');
-        background-size: 100%;
-        width: 100%; 
-    }
+@media screen and (max-width: 320px) {
+  .container{
+    width: 320px;
+  }
+  .header-right-buy{
+    display: none;
+  }
+  .header-right-manu{
+    display: none;
+  }
+  .welcome{
+    padding-left: 0;
+    padding-top: 100px;
+  }
+  .welcome h2{
+    font-size: 20px;
+    padding-left:60px;
+  }
+  .welcome h1{
+    font-size: 40px;
+    padding-left: 30px;
+  }
+  .welcome-food h3{
+    font-size: 10px;
+  }
+  .welcome-food{
+    padding-left: 37px;
+    padding-top: 20px;
+  }
+  .wiew{
+    padding-left: 90px;
+  }
+  .group{
+    display: inline-block;
+  }
+  .header-left img{
+    width: 35px;
+  }
+  nav{
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  .header-left{
+    padding-right: 180px;
+    padding-left: 20px;
+  }
+  .foods{
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 350px;
+    padding-left: 10px;
+  }
 }
