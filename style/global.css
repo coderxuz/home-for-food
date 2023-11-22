@@ -428,6 +428,73 @@ nav a {
   border: none;
 }
 
+.our-foods span {
+  font-family: 'Tinos';
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.brown2 {
+  color: #D67E34;
+  font-family: 'Tinos';
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pizza {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pizza-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pizza-left-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pizza-right-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  width: 210px;
+  height: 140px;
+}
+
+.pizza2 {
+  width: 711px;
+  height: 474px;
+  padding-right: 200px;
+}
+
+.pizza-photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.our-foods {
+  padding: 30px 0;
+}
+
+.pizza3 {
+  display: none;
+}
+
 @media screen and (max-width: 320px) {
   .container {
     width: 320px;
@@ -584,5 +651,50 @@ nav a {
     font-weight: 700;
     line-height: normal;
     padding: 20px 0;
+  }
+
+  .pizza2 {
+    display: none;
+  }
+
+  .pizza3 {
+    display: inline-block;
+  }
+
+  .our-foods span {
+    text-align: center;
+    font-family: 'Tinos';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .our-foods {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .pizza-left {
+    flex-direction: column;
+  }
+
+  .hamburger {
+    width: 140.625px;
+    height: 113.75px;
+  }
+  .pizza-left-right{
+    padding: 10px 0px;
+  }
+  .pizza-right-title img{
+    display: none;
+  }
+  .pizza-right-title{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pizza-photos{
+    padding: 20px 10px;
   }
 }
