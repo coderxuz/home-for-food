@@ -1041,4 +1041,9 @@ nav{
   .pizza3{
     width: 100%;
   }
+  nav{
+    background-color: #000;
+    align-items: center;
+    padding-right: 50px;
+  }
 }
