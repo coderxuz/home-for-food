@@ -274,7 +274,7 @@ nav a {
 }
 
 .history-right span {
-  font-family: 'Tinos';
+  font-family: "Tinos";
   font-size: 54px;
   font-style: normal;
   font-weight: 400;
@@ -320,7 +320,7 @@ nav a {
 .history-right p {
   color: #656363;
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -328,7 +328,7 @@ nav a {
 }
 
 .rating h2 {
-  color: #BC9060;
+  color: #bc9060;
   text-align: center;
   font-family: Open Sans;
   font-size: 40px;
@@ -350,7 +350,7 @@ nav a {
 .history-left-back {
   width: 212px;
   height: 164px;
-  background-color: #FFE8D0;
+  background-color: #ffe8d0;
   position: absolute;
   z-index: -2;
   left: 100px;
@@ -382,7 +382,7 @@ nav a {
 }
 
 .order {
-  background-image: url('../img/Rectangle\ 38.png');
+  background-image: url("../img/Rectangle\ 38.png");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -398,8 +398,8 @@ nav a {
 }
 
 .order-left h1 {
-  color: #D67E34;
-  font-family: 'Tinos';
+  color: #d67e34;
+  font-family: "Tinos";
   font-size: 52px;
   font-style: normal;
   font-weight: 400;
@@ -407,8 +407,8 @@ nav a {
 }
 
 .order-left h3 {
-  color: #FFF;
-  font-family: 'Open Sans';
+  color: #fff;
+  font-family: "Open Sans";
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -418,9 +418,9 @@ nav a {
 .order-right button {
   width: 157px;
   height: 47px;
-  background-color: #FF7400;
-  color: #FFF;
-  font-family: 'Open Sans';
+  background-color: #ff7400;
+  color: #fff;
+  font-family: "Open Sans";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -429,7 +429,7 @@ nav a {
 }
 
 .our-foods span {
-  font-family: 'Tinos';
+  font-family: "Tinos";
   font-size: 54px;
   font-style: normal;
   font-weight: 400;
@@ -437,8 +437,8 @@ nav a {
 }
 
 .brown2 {
-  color: #D67E34;
-  font-family: 'Tinos';
+  color: #d67e34;
+  font-family: "Tinos";
   font-size: 54px;
   font-style: normal;
   font-weight: 400;
@@ -495,9 +495,241 @@ nav a {
   display: none;
 }
 
+nav {
+  position: fixed;
+  padding-left: 280px;
+}
+
+.gamburger-manu {
+  width: 350px;
+  height: 510px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 60px;
+}
+
+.gamburger-manu2 {
+  width: 350px;
+  height: 510px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  position: relative;
+}
+
+.gamburgers {
+  display: flex;
+  background-image: url("../img/bar-1869656_1920\ 2.png");
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.gamburgers img {
+  border-radius: 50%;
+}
+
+.rec {
+  position: absolute;
+  left: 0px;
+  width: 124px;
+  height: 36px;
+  background-color: #d67e34;
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+.hamburg h3 {
+  position: absolute;
+  top: 210px;
+  right: 60px;
+  width: 90px;
+  height: 90px;
+  background-color: #d67e34;
+  stroke-width: 7px;
+  stroke: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #fff;
+}
+.pizza {
+  padding-bottom: 100px;
+}
+.gamburgers h2 {
+  color: #000;
+  font-family: "Tinos";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gamburgers p {
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gamburgers button {
+  width: 220px;
+  height: 50px;
+  background-color: #d67e34;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  margin-bottom: 50px;
+}
+.gamburgers {
+  padding: 100px 20px;
+  padding-right: 200px;
+}
+.nikolay {
+  background-color: #e5e5e5;
+  padding: 70px 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.nikolay h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.nikolay-image {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.nikolay h3 {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.nikolay p {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 0;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 0;
+}
+.gallery-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.images-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.images-3 {
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gallery span {
+  font-family: "Tinos";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gallery-food {
+  color: #d67e34;
+  padding-left: 10px;
+}
+.gallery-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.coffe {
+  padding-top: 20px;
+}
+.table-2 {
+  display: none;
+}
+.cookers-span span {
+  font-family: 'Tinos';
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.our-cookers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cookers-span{
+  padding: 20px 0;
+}
+.cookers-images{
+  display: flex;
+  justify-content: space-between;
+}
+.cookers-images img{
+  padding: 0 32px;
+}
+.st-2{
+  display: none;
+}
+.st{
+  margin-top: 50px;
+}
 @media screen and (max-width: 320px) {
   .container {
     width: 320px;
+    margin: 0 auto;
   }
 
   .header-right-buy {
@@ -572,7 +804,7 @@ nav a {
     align-items: center;
     color: #000;
     text-align: center;
-    font-family: 'Tinos';
+    font-family: "Tinos";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -629,9 +861,9 @@ nav a {
   }
 
   .order-left h1 {
-    color: #D67E34;
+    color: #d67e34;
     text-align: center;
-    font-family: 'Tinos';
+    font-family: "Tinos";
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -643,9 +875,9 @@ nav a {
   }
 
   .order h3 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -663,7 +895,7 @@ nav a {
 
   .our-foods span {
     text-align: center;
-    font-family: 'Tinos';
+    font-family: "Tinos";
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -683,18 +915,99 @@ nav a {
     width: 140.625px;
     height: 113.75px;
   }
-  .pizza-left-right{
+
+  .pizza-left-right {
     padding: 10px 0px;
   }
-  .pizza-right-title img{
+
+  .pizza-right-title img {
     display: none;
   }
-  .pizza-right-title{
+
+  .pizza-right-title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .pizza-photos{
+
+  .pizza-photos {
     padding: 20px 10px;
+  }
+  .gamburger-manu2 {
+    display: none;
+  }
+  .gamburgers {
+    padding: 100px 20px;
+    flex-direction: column;
+  }
+  .gamburgers h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Tinos";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0;
+  }
+  .gamburger-manu {
+    width: 290px;
+    height: 510px;
+  }
+  .nikolay {
+    padding: 20px 20%;
+  }
+  .gallery-title {
+    flex-direction: column;
+  }
+  .gallery-food {
+    padding-left: 0;
+  }
+  .gallery-images {
+    flex-direction: column;
+  }
+  .table {
+    display: none;
+  }
+  .table-2 {
+    display: inline-block;
+  }
+  .images-2 {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .coffe {
+    padding-top: 0;
+  }
+  .images-3 {
+    padding-right: 0;
+  }
+  .gallery img {
+    margin: 15px 0;
+  }
+  .cookers-images{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cookers-images img{
+    padding: 10px 0;
+    width: 95%;
+  }
+  .our-cookers{
+    padding: 10px ;
+  }
+  .cookers-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .st{
+    display: none;
+  }
+  .st-2{
+    display: inline-block;
+    margin-top: 20px;
   }
 }
