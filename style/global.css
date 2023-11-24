@@ -5,8 +5,9 @@
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 header li,
@@ -497,7 +498,7 @@ nav a {
 
 nav {
   position: fixed;
-  padding-left: 280px;
+  padding-left: 0px;
 }
 
 .gamburger-manu {
@@ -726,12 +727,13 @@ nav {
 .st{
   margin-top: 50px;
 }
-@media screen and (max-width: 320px) {
+nav{
+  padding-left: 17%;
+}
+@media screen and (max-width: 480px) {
   .container {
-    width: 320px;
-    margin: 0 auto;
+    max-width:320px;
   }
-
   .header-right-buy {
     display: none;
   }
@@ -782,8 +784,7 @@ nav {
   }
 
   .header-left {
-    padding-right: 180px;
-    padding-left: 10px;
+    padding-left: 100px;
   }
 
   .foods {
@@ -825,7 +826,7 @@ nav {
   }
 
   .history-right-paragh {
-    width: 290px;
+    width: 80%;
     height: 341px;
   }
 
@@ -1009,5 +1010,35 @@ nav {
   .st-2{
     display: inline-block;
     margin-top: 20px;
+  }
+  img{
+    width: 90%;
+  }
+  .gamburgers{
+    background-image: url('../img/bar.png');
+  }
+  header{
+    background-image: url('../img/HERO\ IMG.png');
+    align-items: center;
+  }
+  .history-right-paragh{
+    width: 80%;
+  }
+  .history-right{
+    padding: 10px 50px;
+  }
+  .welcome
+  {
+    padding-right: 20px;
+  }
+  .header-left{
+    padding-left: 50px;
+    padding-right: 170px;
+  }
+  .st-section{
+    padding-left: 30px;
+  }
+  .pizza3{
+    width: 100%;
   }
 }
